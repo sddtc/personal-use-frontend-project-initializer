@@ -1,0 +1,16 @@
+## https://docs.github.com/en/code-security/tutorials/secure-your-dependencies/automating-dependabot-with-github-actions#enabling-automerge-on-a-pull-request
+name: Dependabot auto-merge
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  auto-merge:
+    uses: sddtc/shared-actions/.github/workflows/auto-merge-pr.yml@main
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
