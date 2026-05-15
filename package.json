@@ -15,7 +15,7 @@
   "type": "module",
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",
-    "@vitejs/plugin-react": "^6.0.1",
+    "@vitejs/plugin-react": "^6.0.2",
     "@vitest/coverage-v8": "^4.1.6",
     "daisyui": "^5.5.19",
     "jsdom": "^29.1.1",
