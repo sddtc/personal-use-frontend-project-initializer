@@ -18,7 +18,7 @@
     "@vitejs/plugin-react": "^6.0.4",
     "@vitest/coverage-v8": "^4.1.10",
     "daisyui": "^5.7.4",
-    "jsdom": "^30.0.0",
+    "jsdom": "^30.0.1",
     "lucide-react": "^1.27.0",
     "prop-types": "^15.8.1",
     "react": "^19.2.8",
